@@ -2,7 +2,10 @@ teams:
   - name: iguazu-maintainers
     maintainers:
       - ryjones
-    members: []
+    members:
+      - dimrogovoy
+      - on-waterfall
+      - VladimirMezin
   - name: lfdt-staff
     maintainers:
       - ryjones
