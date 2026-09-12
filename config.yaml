@@ -1,10 +1,9 @@
 teams:
   - name: iguazu-maintainers
     maintainers:
-      - ryjones
+      - on-waterfall
     members:
       - dimrogovoy
-      - on-waterfall
       - VladimirMezin
   - name: lfdt-staff
     maintainers:
@@ -15,9 +14,21 @@ teams:
 repositories:
   - name: .github
     teams:
+      iguazu-maintainers: maintain
       lfdt-staff: maintain
     visibility: public
   - name: governance
     teams:
+      iguazu-maintainers: maintain
+      lfdt-staff: maintain
+    visibility: public
+  - name: waterfall-docs
+    teams:
+      iguazu-maintainers: maintain
+      lfdt-staff: maintain
+    visibility: public
+  - name: waterfall-one-click-setup-app
+    teams:
+      iguazu-maintainers: maintain
       lfdt-staff: maintain
     visibility: public
