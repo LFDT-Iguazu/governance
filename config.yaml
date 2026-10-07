@@ -4,6 +4,7 @@ teams:
       - on-waterfall
     members:
       - dimrogovoy
+      - grybniak
       - VladimirMezin
   - name: lfdt-staff
     maintainers:
@@ -18,6 +19,26 @@ repositories:
       lfdt-staff: maintain
     visibility: public
   - name: governance
+    teams:
+      iguazu-maintainers: maintain
+      lfdt-staff: maintain
+    visibility: public
+  - name: iguazu-consensus
+    teams:
+      iguazu-maintainers: maintain
+      lfdt-staff: maintain
+    visibility: public
+  - name: iguazu-coordinator
+    teams:
+      iguazu-maintainers: maintain
+      lfdt-staff: maintain
+    visibility: public
+  - name: iguazu-engine
+    teams:
+      iguazu-maintainers: maintain
+      lfdt-staff: maintain
+    visibility: public
+  - name: iguazu-types
     teams:
       iguazu-maintainers: maintain
       lfdt-staff: maintain
